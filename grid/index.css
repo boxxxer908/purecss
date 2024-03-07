@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body,
+html,
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.flex {
+  display: flex;
+  /* flex-direction: column-reverse; */
+  align-items: center;
+  /* flex-flow: column wrap; */
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 100%;
+  align-content: center;
+}
+
+.flex-item {
+  width: 30%;
+  height: 30%;
+
+  border: 1px solid red;
+}
+
+/* .flex-item.active {
+  order: 1;
+} */
